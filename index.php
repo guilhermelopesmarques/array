@@ -31,7 +31,7 @@ $newValue = 10; // Novo valor para o item
 $myArray[$indexToChange] = $newValue; // Altera o valor do item no índice especificado
 
     foreach ($myArray as $item){
-        echo $item . " ";
+        echo $item . "<br>";
     }
     ?>
 </body>
